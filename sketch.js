@@ -1,5 +1,5 @@
 // Project Title
-// Your Name
+// Sam
 // Date
 //
 // Extra for Experts:
@@ -12,7 +12,7 @@ function setup() {
 
 function draw() { // runs OVER and OVER
                   // targetting 60 frames per second
-  background(220);
-  fill(255,0,0)
+  //background(220);
+  fill(,0)
   circle(mouseX,mouseY, 30);
 }
