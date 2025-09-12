@@ -3,7 +3,11 @@
 // 9/11/2025
 //
 // GLOBAL VARIABLES HERE...
+//can only work with "simple" data in this
+//section of code.
+
 let circleColor = false;
+let currentcolor = "white";
 
 function setup() {
   createCanvas(400, 400);
@@ -18,8 +22,11 @@ function KeyPressed(){
 //this is a special EVENT function, gets
 //automatically called anytime keyboard
 //button is pressed.
-  print("key was pressed")
-  circleColor = !circleColor;
+print("key was pressed")
+if(key === "g") currentcolor = "green";
+else if (KeyCode === SHIFT && key === "a") currentColor = "amber";
+circleColor =! circleColor
+
 
 // how to tell which key was pressed???
 }
@@ -31,7 +38,7 @@ function challenge(){
   nofill();
 
   if(circleColor === true) {    //circlecolor ===
-    fill(255,0,0);
+    fill(currentcolor);
   }
 
   // 5 circles
@@ -39,5 +46,5 @@ function challenge(){
   circle(width,0,50);
   circle(0,height,50);
   circle(width,height,50);
-  circle(width*0.5)
+  circle(width * 0.5,height * 0.5,50)
 }
