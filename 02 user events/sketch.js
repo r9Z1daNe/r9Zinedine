@@ -9,14 +9,38 @@
 let circleColor = false;
 let currentcolor = "white";
 
+let x;
+// declaration initiallization
+
+
 function setup() {
   createCanvas(400, 400);
+  rectMode(CENTER);
+  x = width / 2
+
+
 }
 
 function draw() {
   background(220);
   challenge(); // coordinate system challenge
+  movement();
+  rect(x,300,60,30);
+
 }
+
+function movement(){-
+  // check for keyboard presses each frame
+  //and move to
+  //if (keyCode === RIGHT_ARROW && KeyisPressed) x += 5;
+  //else if ( keyCode === LEFT && KEy is Pressed) x -= 5;
+
+if key
+
+}
+
+
+
 
 function KeyPressed(){
 //this is a special EVENT function, gets
