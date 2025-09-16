@@ -7,8 +7,8 @@
 // section of code. No system variables are
 // available until in setup(), ...after canvas is made
 
-let circleColor = false;
-let currentColor = "white";
+let circleColor = true;
+let currentColor = "blue";
 
 let x; let y = 300;
 let tSize = 50;  //for text-font size
