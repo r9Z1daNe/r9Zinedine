@@ -15,10 +15,10 @@ function draw() {
 
 }
 
-function circle () {
+function circle() {
   createCanvas(100, 100);
 
-  background(150);
+  background(200);
 
   circle(50, 50, 25);
 
