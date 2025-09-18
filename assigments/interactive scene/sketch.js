@@ -11,16 +11,18 @@ function setup() {
 }
 function draw() {
   background(20, 163, 182);
-
+  ccircle()
 
 }
 
-function circle() {
-  createCanvas(100, 100);
+function ccircle() {
 
-  background(200);
+  fill(255, 255, 0);
 
-  circle(50, 50, 25);
+  circle(700, 100, 170);
 
   describe('A white circle with black outline in the middle of a gray canvas.');
 }
+
+
+
